@@ -55,9 +55,23 @@
         x++;
       }
 
+      var tuna = "salam khobi"
+      document.write(tuna.length);
     }
     biron ();
-     
+      
+
+    function persen (name,age){
+      this.name=name;
+      this.age=age;
+    
+    }
+    var amir =new persen ("amir azimi " , 25);
+    var ali = new persen ("ali rahi", 29)
+
+
+
+    
 
  
 
@@ -65,6 +79,19 @@
   </script>
 </head>
 <body>
+
+<script type="text/javascript">
+  document.write(amir.name);
+  document.write(amir.age);
+  document.write(ali.name);
+  document.write(ali.age);
+</script>
+
+  <input type="button" value="click kon" onclick="alert('click kon')" >
+  <br>
+  <a href="https://sariasan.com/" onmouseover="alert('click kon');">salam</a>
+  <br>
+  <a href="https://sariasan.com/" onmouseout="alert('click');">khobi</a>
 
 </body>
 </html>
