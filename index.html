@@ -68,14 +68,13 @@
     }
     var amir =new persen ("amir azimi " , 25);
     var ali = new persen ("ali rahi", 29)
-
-
-
-    
-
- 
-
-
+    var pipale = new Array ("hasan","shadi","roya","soghra");
+    var hasan = new Array ("soghra","mmad","omid","amir")
+    var po = pipale.concat(hasan);
+  </script>
+  <script>
+    hosin = {nam:"hosin sani", agee:27};
+    neda = {nam: "neda yasi " , agee:28}
   </script>
 </head>
 <body>
@@ -85,6 +84,10 @@
   document.write(amir.age);
   document.write(ali.name);
   document.write(ali.age);
+  document.write(hosin.nam + "love" + neda.nam + "salm" + neda.agee);
+  document.write(pipale[3]);
+  document.write(pipale.length)
+  document.write(po[6])
 </script>
 
   <input type="button" value="click kon" onclick="alert('click kon')" >
